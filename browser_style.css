@@ -1,18 +1,31 @@
-  body {background-color:#000000;}
-
-  h1 {
+  body {background-color:#FFFFFF;}
+  
+  #header{
     text-align:center;
+    width:90%;
+    height:100px;
+    margin-bottom:20px;
+    background-color:blue;
+  }
+  #name{
+        text-align:center;
     text-shadow:4px 4px #333;
     background-color:#FF0000;
     color: yellow;
     font-size:44px;
     font-family: Verdana; Arial; Serif;
   }
+  #navigation {
 
+  }
   p{
     font-family: Georgia, "Arial", serif;
     font-size:14px;
     font-style: italic;
-    color:#FFFFFF;
-    text-decoration:overline;
+    color:black;
   }
+  div.intro{
+    background:#CCCCCC;
+    box-shadow: 2px 2px 5px #888;
+  }
+  #fruit{font-weight:bold; line-height:1.8;}
