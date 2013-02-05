@@ -1,6 +1,18 @@
+  body {background-color:#000000;}
+
   h1 {
-    color: #009900;
-    serif;
-    font-size:24px;
+    text-align:center;
+    text-shadow:4px 4px #333;
+    background-color:#FF0000;
+    color: yellow;
+    font-size:44px;
+    font-family: Verdana; Arial; Serif;
+  }
+
+  p{
+    font-family: Georgia, "Arial", serif;
+    font-size:14px;
     font-style: italic;
+    color:#FFFFFF;
+    text-decoration:overline;
   }
