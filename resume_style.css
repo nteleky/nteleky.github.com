@@ -25,13 +25,21 @@
   #navigation {
 
   }
+  h1{
+    font-family: Arial, Georgia, serif;
+    font-style: italic;
+  }
   p{
-    font-family: Georgia, "Arial", serif;
+    font-family: Arial, serif;
     font-size:14px;
     font-style: italic;
     color:black;
   }
-  #list{font-weight:bold; line-height:1.8;}
+  ul {
+    font-family: Arial, serif;
+    font-style: italic;
+  }
+  #fruit{font-weight:bold; line-height:1.8;}
   #pic {
     float: right;
   }
