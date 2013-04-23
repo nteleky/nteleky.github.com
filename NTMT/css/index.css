@@ -20,12 +20,62 @@ body {
     margin: 0 auto;
 }
 
-#header {
+/*Header Stuff*/
+#header{
     position: absolute;
     top: 0; left: 0; right: 0;
-    font-size: 65px;
-    color:#555555;
+    padding: 0px 20px 5px 20px;
 }
-#header span {
-    color:#000;
+    #header #name {
+        text-decoration: none;
+        padding: 0;
+        margin: 0;
+        transition: all 0.2s ease-in-out;
+    }
+        #header #name h1 {
+            font-size: 65px;
+            text-align:left;
+            color:#7f7f7f;
+            text-transform: lowercase;
+            letter-spacing:0px;
+            padding: 30px 0 0 0;
+            margin: 0;
+            float: left;
+            font-family: Calibri;
+
+        }
+            #header #name h1 span {
+            color:#000;
+            }
+    #header .tmtlogo {
+        float: right;
+    }
+
+/*Letter Content*/
+#letter {
+    width: 980px;
+    left: 50%;
+    margin-left: -490px;
+    display: block;
+    position: absolute;
+    font-family: Calibri;
+    font-size: 26px;
+    color:#000000;
+    top: 150px;
 }
+    #letter p {
+        padding: 0;
+        margin: 20px 0;
+        position: relative;
+        line-height: 36px;
+    }
+        #letter p span{
+            color:#505050;
+            font-size: 32px;
+            font-weight: bold;
+        }
+        #letter #tag {
+            color:#000;
+            font-size: 36px;
+            font-weight: bold;
+        }
