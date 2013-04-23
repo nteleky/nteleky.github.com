@@ -1,8 +1,31 @@
+/*FONTS*/
+@font-face {
+    font-family: Calibri;
+    src: url("fonts/Calibri.ttf");
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
 body {
 	margin: 0;
 	padding: 0;
-	background: #1c002e url(../images/bg_darkpurple.jpg) repeat;
-	font-family: 'Futura', 'Open Sans', sans-serif;
+//	background: #1c002e url(../images/bg_darkpurple.jpg) repeat;
+	font-family: 'Calibri', 'Futura', 'Open Sans', sans-serif;
+    font-weight:100;
 	font-size: 13px;
 	color: #FFFFFF;
+    margin: 0 auto;
+}
+
+#header {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    font-size: 65px;
+    color:#555555;
+}
+#header span {
+    color:#000;
 }
