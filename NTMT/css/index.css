@@ -29,7 +29,7 @@ body {
     #header #name {
         text-decoration: none;
         padding: 0;
-        margin: 0;
+        margin: 25px;
         transition: all 0.2s ease-in-out;
     }
         #header #name h1 {
@@ -49,7 +49,12 @@ body {
             }
     #header .tmtlogo {
         float: right;
+        margin: 30px;
     }
+ /*   #header #navigator {
+        height: 50px;
+        width: 100%
+    }*/
 
 /*Letter Content*/
 #letter {
@@ -76,8 +81,10 @@ body {
         }
         #letter #tag {
             color:#000;
-            font-size: 36px;
+            font-size: 42px;
             font-weight: bold;
         } #letter #tag span {
             color:#7f7f7f;
+            font-size: 42px;
+            font-weight: bold;
         }
