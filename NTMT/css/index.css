@@ -90,23 +90,24 @@ body {
 #letter {
     width: 980px;
     left: 50%;
+    text-align: justify;
     margin-left: -490px;
     display: block;
     position: absolute;
     font-family: Calibri;
-    font-size: 26px;
+    font-size: 22px;
     color:#000000;
     top: 150px;
 }
     #letter p {
         padding: 0;
-        margin: 20px 0;
+        margin: 15px 0;
         position: relative;
         line-height: 36px;
     }
         #letter p span{
             color:#505050;
-            font-size: 32px;
+            font-size: 28px;
             font-weight: bold;
         }
         #letter #tag {
@@ -118,3 +119,13 @@ body {
             font-size: 42px;
             font-weight: bold;
         }
+#content {
+    width: 980px;
+    margin-left: 200px;
+    display: block;
+    position: absolute;
+    font-family: Calibri;
+    font-size: 26px;
+    color:#000000;
+    top: 150px;
+}
