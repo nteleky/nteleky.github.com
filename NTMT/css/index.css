@@ -33,7 +33,7 @@ body {
         transition: all 0.2s ease-in-out;
     }
         #header #name h1 {
-            font-size: 65px;
+            font-size: 56px;
             text-align:left;
             color:#7f7f7f;
             text-transform: lowercase;
@@ -83,6 +83,19 @@ body {
             position: relative;
             font-family: Calibri;
             transition: all 0.18s ease-in-out;
+        } #header #navigator li .nav_links h2 {
+            text-decoration: none;
+            font-family: Calibri;
+            font-size: 21px;
+            line-height: 25px;
+            text-align: center;
+            float: left;
+            display; block;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            width: 100%;
+            bottom: 0;
         }
 
 
@@ -97,7 +110,7 @@ body {
     font-family: Calibri;
     font-size: 22px;
     color:#000000;
-    top: 150px;
+    top: 120px;
 }
     #letter p {
         padding: 0;
@@ -128,4 +141,10 @@ body {
     font-size: 26px;
     color:#000000;
     top: 150px;
+}
+
+.accordion {
+    font-family: Calibri;
+    font-size: 20px;
+    line-height: 25px;
 }
