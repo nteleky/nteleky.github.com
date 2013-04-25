@@ -152,10 +152,18 @@ body {
 .accordion {
     font-family: Calibri;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 28px;
+}
+.accordion a {
+    color: #7f7f7f;
+    text-decoration: underline;
 }
 #prob {
     font-style: italic;
+    margin: 10px 0 10px 0;
+}
+#prob span {
+    text-decoration: underline;
 }
 .solution {
 
@@ -164,8 +172,8 @@ body {
     font-weight: bold;
     font-size: 24px;
 }
-.solution #sollist {
+.solution #sollist li {
     font-family: Calibri;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 28px;
 }
