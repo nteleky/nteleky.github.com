@@ -139,12 +139,33 @@ body {
     position: absolute;
     font-family: Calibri;
     font-size: 26px;
+    line-height: 30px;
     color:#000000;
     top: 150px;
+} #content p {
+
+} #content p span {
+    font-weight: bold;
+    font-size: 30px;
 }
 
 .accordion {
     font-family: Calibri;
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 18px;
+    line-height: 24px;
+}
+#prob {
+    font-style: italic;
+}
+.solution {
+
+}
+.solution span {
+    font-weight: bold;
+    font-size: 24px;
+}
+.solution #sollist {
+    font-family: Calibri;
+    font-size: 18px;
+    line-height: 24px;
 }
