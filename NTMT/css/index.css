@@ -156,6 +156,7 @@ body {
 }
 .accordion a {
     color: #7f7f7f;
+    font-size:24px;
     text-decoration: underline;
 }
 #prob {
@@ -163,7 +164,8 @@ body {
     margin: 10px 0 10px 0;
 }
 #prob span {
-    text-decoration: underline;
+   // text-decoration: underline;
+   font-weight: bold;
 }
 .solution {
 
