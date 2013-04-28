@@ -9,6 +9,9 @@ $(document).ready(function() {
 
     $("#sent5").delay(2000).fadeIn("slow");
     $("#tag").delay(2300).fadeIn("slow");
+
+
+
 });
 
 $(document).ready(function() { 
@@ -163,3 +166,26 @@ $('#collapseOne').collapse("hide");
 }(window.jQuery);
 
   /* ================================ */
+
+/* Plan Page Scroll Animation */
+
+/* Why Teleky Page */
+	var section = $('.section');
+	var year = $('#quals a');
+
+	$(year).click(function() {
+		$(this).addClass('active');
+		var cur = "#" + this.id + "Sec";
+		$(cur).addClass('active');
+
+		$(year).not(this).removeClass('active');
+		
+		for (i=0;i<2;i++) {
+			var not = $(year).not(this)[i];
+			var notSec = "#" + not.id + "Sec";
+			console.log(notSec);
+			$(notSec).removeClass('active');			
+		}
+
+			
+	});
