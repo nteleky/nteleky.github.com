@@ -179,3 +179,13 @@ body {
     font-size: 18px;
     line-height: 28px;
 }
+#faqs h1 {
+
+}
+#faqs .question {
+    font-weight: bold;
+    font-size:18px;
+}
+#faqs .answer {
+    font-size:18px;
+}
