@@ -1,5 +1,6 @@
 CACHE MANIFEST
 # 2013-09-15 v1.0.0
-/game3.js
-/style.css
-/assets/frogger_sprites.png
+index.html
+game3.js
+style.css
+assets/frogger_sprites.png
