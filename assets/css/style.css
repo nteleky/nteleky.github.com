@@ -1,0 +1,18 @@
+/*
+
+Style for index page
+
+*/
+
+
+/* Image Sprites for Contact border-image-source */
+
+#facebook {
+	display: block;
+	margin: 0px;
+	height: 40px;
+	width: 80px;
+	background-image: url('assets/img/contact_icons.png');
+	background-position: 19px 320px;
+
+}
