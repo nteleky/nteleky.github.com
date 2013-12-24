@@ -20,3 +20,8 @@ Style for index page
 	background-position: 19px 320px;
 
 }
+
+.hidden-but-space-reserved {
+
+	visibility: hidden;
+}
