@@ -1,0 +1,99 @@
+<html>
+
+<!-- This loads d3 from the web. This could also be a local file -->
+<head>
+<title> Lab 10: Comp150 Viz F14 </title>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+</head>
+
+<!-- This is our HTML body. D3 works by manipulating the tags in here. -->
+<body>
+<h1> Lab10 </h1>
+  <p> Team NextGen: </p>
+  <ul>
+  <li>Emma Posamentier
+  </li>
+  <li> Gabe Terrell </li>
+  <li> Nick Teleky </li>
+  </ul>
+
+</body>
+
+<!-- This is our main script for executing d3 commands. This could also be a local file. -->
+<script>
+
+// Open up your console (More Tools -> Javascript Console in Chrome) to see the printed output below. It should look like "> Object {ver...". Click on the > to explore the attributs of the object.
+console.log( d3 );
+
+
+// Remove this line and the tutorial function when you are ready to build your rectangle.
+//tutorial();
+lab10take2();
+
+
+function lab10take2() {
+  var rectChange = false;
+  var text = "Rect 1";
+  body = d3.select('body')
+
+  svg = body.append('svg')
+                        .attr('height', '400px')
+                        .attr('width', '300px')
+        rect = svg.append('rect')
+                        .attr('width', '200px')
+                        .attr('height', '150px')
+                        .attr('x', '100px')
+                        .attr('y', '75px')
+                        .attr('fill', 'steelblue')
+                        .attr('stroke', 'black')
+                        .on('click', function() {
+                              var width = d3.select(this).attr('width');
+                              if (width == "200px") {
+                                d3.select(this)
+                                  .attr('width', (400.0 / 3) + "px")
+                                  .attr('height', "100px")
+                                  .attr('x', (400.0 / 3) + "px")
+                                  .attr('y', '100px')
+                                  .attr('fill', 'lime');
+                                textSwitcher("Rect 2");
+                              }
+                              else {
+                                d3.select(this)
+                                  .attr('width', "200px")
+                                  .attr('height', "150px")
+                                  .attr('x', '100px')
+                                  .attr('y', '75px')
+                                  .attr('fill', 'steelblue');
+                                textSwitcher("Rect 1");
+
+                              }
+                        })
+
+         text = svg.append('text')
+                         .text('Rect 1')
+                         .attr('x', 200)
+                         .attr('y', 150)
+                         .attr('fill', 'black')
+                         .attr('text-anchor', 'middle')
+}
+function textSwitcher(rectText) {
+    svg.selectAll('text').remove();
+
+    text = svg.append('text')
+                  .text(rectText)
+                  .attr('x', 200)
+                  .attr('y', 150)
+                  .attr('fill', 'black')
+                  .attr('id', 'rectText')
+                  .attr('text-anchor', 'middle')
+}
+
+
+
+
+
+</script>
+
+
+</html>
